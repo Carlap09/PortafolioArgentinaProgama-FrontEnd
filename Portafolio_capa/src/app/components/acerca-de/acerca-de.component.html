@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row" id="sobremi" *ngIf="persona">
+    <div class="col-lg-2">
+      <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+          Editar Persona
+      </button>
+  </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+
+
+      <img src="{{persona.img}}" class="img-fluid" id="imgperfil">
+
+    </div>
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+      <p id="nombre">{{ persona.nombre }} {{ persona.apellido }}</p>
+      <p>Full Stack Developer Jr/ Licenciada en Contaduria<p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
+      <hr>
+        <h1 class="text  animate__animated animate__lightSpeedInLeft ">Acerca de mi</h1>
+
+        <h2 class="sobre">{{persona.descripcion}}</h2>
+        <div class="caja">
+          <div class="col">
+              <p class="sobre">Soy Carla Pacheco, actualmente me encuentro en la Ciudad
+                  Autonoma de Buenos Aires. Despues de la carrera universitaria como Contadora
+                  me intereso la carrera de Desarrollo web y estudie en Argentina programa el
+                  curso de Full Stack Developer Angular, realice el curso de
+                  Desarrrollo Web en  Codo a Codo (Agencia de aprendizaje a lo
+                  largo de la vida en Buenos Aires). Me Gradué como Licenciada en Contaduría
+                  Publica por la Universidad Santa María en Venezuela, tengo una alta
+                  capacidad de adaptación, trabajo en equipo,. Me Destaco por mi actitud
+                  positiva, organización y responsabilidad.</p>
+          </div>
+
+    </div>
+
+  </div>
+</div>

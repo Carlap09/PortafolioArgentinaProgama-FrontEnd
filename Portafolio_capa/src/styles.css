@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+#encabezado{
+  height:4rem;
+  border-bottom: solid 1px #dfdfdf;
+
+}
+
+
+
+.fa {
+  display:flex;
+  color: #000033;
+  height: 2.4rem;
+  width: 2.4rem;
+  line-height: 2.4rem;
+  text-align:center;
+}
+
+.h1{
+  font-weight: bold;
+
+}
+
+/*
+.nombre{
+
+  margin-top:2%;
+  text-align:center;
+
+}*/
+
+.perfil__parrafo{
+  font-size: 20px;
+  margin: 8px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+.card{
+  background:#a04f62;
+}

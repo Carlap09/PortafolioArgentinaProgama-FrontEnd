@@ -1,0 +1,38 @@
+<div class="card mat-card">
+  <div class="proyecto">
+    <div class="row" *ngIf="proyecto">
+      <div class="col-lg-2">
+        <h1>Proyecto</h1>
+        <button
+          type="button"
+          class="btn btn-primary"
+          routerLink="/nuevoproyecto"
+          *ngIf="isLogged"
+        >
+          Nuevo Proyecto
+        </button>
+
+        <div class="contenedor">
+          <div class="col-sm-12 col-md-7 col-lg-7 parte1">
+              <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pencil"></i></a>
+              </div>
+              <h3>Lucky GeeK</h3>
+              <p>Pagina web de LuckGeek en front end</p>
+          </div>
+          <div class="col- sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
+          <img src="../../../assets/imagen/LogoLucky.jpg" width="150" class="img-fluid imgproyect">
+          </div>
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src=" " id="imgP" />
+      </div>
+      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <p id="nombreP"></p>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcionP">
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+</div>
